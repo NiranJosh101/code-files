@@ -11,6 +11,12 @@ img {
     object-fit: cover;
 }
 
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .work {
     position: relative;
@@ -187,17 +193,17 @@ button {
 
 
 .bg-color-red {
-    background-color: rgb(164, 250, 249);
+    background-color: #000;
 }
 
 
 .bg-color-blue {
-    background-color: rgb(246, 250, 164);
+    background-color: gray;
 }
 
 
 .bg-color-green {
-    background-color: rgb(250, 164, 164);
+    background-color: rgb(61, 61, 61);
 }
 
 

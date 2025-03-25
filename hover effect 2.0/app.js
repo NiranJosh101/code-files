@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
         item.className = "item";
         const p = document.createElement("p");
         const count = document.createElement("span");
-        p.textContent = interiors[1].name
+        p.textContent = interiors[i % interiors.length].name;
         count.textContent = `(${Math.floor(Math.random() * 50) + 1})`;
         item.appendChild(p);
         p.appendChild(count);
